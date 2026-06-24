@@ -8,11 +8,14 @@ Hi. We're here to develop a feature, or make a change, that the user has asked y
 - Environment Setup
 - Planning
 - Planning Checkpoint
-- Writing code
-- Running tests
-- Code review
-- Publish a Pull Request
-- Watch CI
+- Loop:
+  - Writing code
+  - Running tests
+  - Code review
+- Loop:
+  - Publish a Pull Request
+  - Watch CI
+- Final Report
 
 ## The Context File
 
@@ -73,4 +76,8 @@ It is imperative to note that the three steps "Writing Code", "Running tests" an
 - Watch CI to completion with `gh pr checks <pr> --watch --fail-fast`.
 - If CI fails, examine the failure logs, try to fix the error, push your fixes, and repeat the CI watch loop from the new PR head until CI is green.
 - Do not send the final completion report until CI is green, or until you clearly report a blocker that prevents CI from being observed or fixed.
+
+### Final Report
+
 - Report to the user what you did. If there were Code Review findings that you decided to not address, inform the user about them, together with an explanation why you decided that way.
+- Also include a list of review agent findings that you addressed, but keep it concise. This way the user will know that the workflow actually worked.
