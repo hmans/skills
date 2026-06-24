@@ -18,5 +18,6 @@ description: "Perform a review of the changes in this directory/worktree/branch/
 ## How to report
 
 - Report your findings as a numbered list, categorized as "critical", "high", "medium" and "low".
+- Each item should be Markdown formatted, with a heading stating a unique ID, the finding level, and a summary, eg. `## 1. CRITICAL: Permissions are not being evaluated`
 - For each item, explain your finding, and its potential consequences.
 - Please only include your findings. Don't specifically mention if you had no findings.
