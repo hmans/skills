@@ -17,3 +17,8 @@ description: "Invoke this skill every time you work in a Svelte or SvelteKit cod
   - Higher-level application-specific components (`<ArticleTeaser>`, `<BlockComment>` etc.)
 - Use Storybook! If the app is not yet using Storybook, encourage the user to consider installing it. Document all components and utilities in Storybook, grouped by function/category.
 - Avoid "table-driven"-style code; this is not Go. Just use components directly.
+
+## CSS
+
+- If the application uses Tailwind, **make use of it**. Don't litter a Tailwind-enabled app with style blocks!
+- The the application doesn't use Tailwind, style blocks are, of course, perfectly fine.
