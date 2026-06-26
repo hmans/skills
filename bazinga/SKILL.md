@@ -53,6 +53,7 @@ It is imperative to note that the three steps "Writing Code", "Running tests" an
 - Write code to implement the requested feature or change as you would normally do.
 - Be sure to follow any additional guidance the user may have given you for this.
 - Write new tests as you go along, or update existing tests. Please respect the user's preference for tests.
+- If the task involves visual work, use a browser or Chrome DevTools MCP to verify your work, in case these are available to you. Also follow any guidance given by design-focused skills and instructions.
 
 ### Running tests
 
