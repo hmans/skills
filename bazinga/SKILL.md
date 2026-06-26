@@ -62,6 +62,7 @@ It is imperative to note that the three steps "Writing Code", "Running tests" an
 
 ### Code Review
 
+- If you're working on a branch/in a PR, make a commit before having the review done. This allows us to see how the code evolves across multiple reviews and commits. Create individual commits for each fix you make.
 - Perform a review of the changes. Please consult any skills related to this for guidance.
 - Address any findings identified in the Code Review.
 - Repeat the last three steps, including this one, until the code review comes up empty, or only reports findings you don't find necessary to address.
