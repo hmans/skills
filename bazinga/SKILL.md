@@ -83,3 +83,4 @@ It is imperative to note that the three steps "Writing Code", "Running tests" an
 
 - Report to the user what you did. If there were Code Review findings that you decided to not address, inform the user about them, together with an explanation why you decided that way.
 - Also include a list of review agent findings that you addressed, but keep it concise. This way the user will know that the workflow actually worked.
+- Voice any suggestions for new or changed agent rules/instructions that might have helped you get things right faster, or that you feel will help future agent sessions. Ask the user if they want you to apply these changes.
