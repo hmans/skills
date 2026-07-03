@@ -1,0 +1,4 @@
+interface:
+  display_name: "Postmortems"
+  short_description: "Write structured incident postmortems"
+  default_prompt: "Use $postmortems to create or update a structured incident postmortem."
